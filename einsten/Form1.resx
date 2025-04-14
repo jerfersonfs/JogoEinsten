@@ -1,0 +1,2258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbx_Amarelo.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Amarelo.Items1" xml:space="preserve">
+    <value>Vermelha</value>
+  </data>
+  <data name="cbx_Amarelo.Items2" xml:space="preserve">
+    <value>Branca</value>
+  </data>
+  <data name="cbx_Amarelo.Items3" xml:space="preserve">
+    <value>Amarela</value>
+  </data>
+  <data name="cbx_Amarelo.Items4" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="cbx_Amarelo.Items5" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbx_Amarelo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 74</value>
+  </data>
+  <data name="cbx_Amarelo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbx_Amarelo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbx_Amarelo.Name" xml:space="preserve">
+    <value>cbx_Amarelo</value>
+  </data>
+  <data name="&gt;&gt;cbx_Amarelo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Amarelo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Amarelo.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="cbx_Azul.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Azul.Items1" xml:space="preserve">
+    <value>Vermelha</value>
+  </data>
+  <data name="cbx_Azul.Items2" xml:space="preserve">
+    <value>Branca</value>
+  </data>
+  <data name="cbx_Azul.Items3" xml:space="preserve">
+    <value>Amarela</value>
+  </data>
+  <data name="cbx_Azul.Items4" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="cbx_Azul.Items5" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="cbx_Azul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 74</value>
+  </data>
+  <data name="cbx_Azul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Azul.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbx_Azul.Name" xml:space="preserve">
+    <value>cbx_Azul</value>
+  </data>
+  <data name="&gt;&gt;cbx_Azul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Azul.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Azul.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="cbx_Vermelha.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Vermelha.Items1" xml:space="preserve">
+    <value>Vermelha</value>
+  </data>
+  <data name="cbx_Vermelha.Items2" xml:space="preserve">
+    <value>Branca</value>
+  </data>
+  <data name="cbx_Vermelha.Items3" xml:space="preserve">
+    <value>Amarela</value>
+  </data>
+  <data name="cbx_Vermelha.Items4" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="cbx_Vermelha.Items5" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="cbx_Vermelha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 74</value>
+  </data>
+  <data name="cbx_Vermelha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Vermelha.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbx_Vermelha.Name" xml:space="preserve">
+    <value>cbx_Vermelha</value>
+  </data>
+  <data name="&gt;&gt;cbx_Vermelha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Vermelha.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Vermelha.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="cbx_Verde.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Verde.Items1" xml:space="preserve">
+    <value>Vermelha</value>
+  </data>
+  <data name="cbx_Verde.Items2" xml:space="preserve">
+    <value>Branca</value>
+  </data>
+  <data name="cbx_Verde.Items3" xml:space="preserve">
+    <value>Amarela</value>
+  </data>
+  <data name="cbx_Verde.Items4" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="cbx_Verde.Items5" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="cbx_Verde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 74</value>
+  </data>
+  <data name="cbx_Verde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Verde.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbx_Verde.Name" xml:space="preserve">
+    <value>cbx_Verde</value>
+  </data>
+  <data name="&gt;&gt;cbx_Verde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Verde.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Verde.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="cbx_Branca.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Branca.Items1" xml:space="preserve">
+    <value>Vermelha</value>
+  </data>
+  <data name="cbx_Branca.Items2" xml:space="preserve">
+    <value>Branca</value>
+  </data>
+  <data name="cbx_Branca.Items3" xml:space="preserve">
+    <value>Amarela</value>
+  </data>
+  <data name="cbx_Branca.Items4" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="cbx_Branca.Items5" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="cbx_Branca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 74</value>
+  </data>
+  <data name="cbx_Branca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Branca.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbx_Branca.Name" xml:space="preserve">
+    <value>cbx_Branca</value>
+  </data>
+  <data name="&gt;&gt;cbx_Branca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Branca.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Branca.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="cbx_Sueco.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Sueco.Items1" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="cbx_Sueco.Items2" xml:space="preserve">
+    <value>Sueco</value>
+  </data>
+  <data name="cbx_Sueco.Items3" xml:space="preserve">
+    <value>Dinamarques</value>
+  </data>
+  <data name="cbx_Sueco.Items4" xml:space="preserve">
+    <value>Alemão</value>
+  </data>
+  <data name="cbx_Sueco.Items5" xml:space="preserve">
+    <value>Noroegues</value>
+  </data>
+  <data name="cbx_Sueco.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 104</value>
+  </data>
+  <data name="cbx_Sueco.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Sueco.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbx_Sueco.Name" xml:space="preserve">
+    <value>cbx_Sueco</value>
+  </data>
+  <data name="&gt;&gt;cbx_Sueco.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Sueco.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Sueco.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="cbx_Alemanha.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Alemanha.Items1" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="cbx_Alemanha.Items2" xml:space="preserve">
+    <value>Sueco</value>
+  </data>
+  <data name="cbx_Alemanha.Items3" xml:space="preserve">
+    <value>Dinamarques</value>
+  </data>
+  <data name="cbx_Alemanha.Items4" xml:space="preserve">
+    <value>Alemão</value>
+  </data>
+  <data name="cbx_Alemanha.Items5" xml:space="preserve">
+    <value>Noroegues</value>
+  </data>
+  <data name="cbx_Alemanha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 104</value>
+  </data>
+  <data name="cbx_Alemanha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Alemanha.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cbx_Alemanha.Name" xml:space="preserve">
+    <value>cbx_Alemanha</value>
+  </data>
+  <data name="&gt;&gt;cbx_Alemanha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Alemanha.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Alemanha.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="cbx_Ingles.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Ingles.Items1" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="cbx_Ingles.Items2" xml:space="preserve">
+    <value>Sueco</value>
+  </data>
+  <data name="cbx_Ingles.Items3" xml:space="preserve">
+    <value>Dinamarques</value>
+  </data>
+  <data name="cbx_Ingles.Items4" xml:space="preserve">
+    <value>Alemão</value>
+  </data>
+  <data name="cbx_Ingles.Items5" xml:space="preserve">
+    <value>Noroegues</value>
+  </data>
+  <data name="cbx_Ingles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 104</value>
+  </data>
+  <data name="cbx_Ingles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Ingles.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cbx_Ingles.Name" xml:space="preserve">
+    <value>cbx_Ingles</value>
+  </data>
+  <data name="&gt;&gt;cbx_Ingles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Ingles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Ingles.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="cbx_Dinamarca.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Dinamarca.Items1" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="cbx_Dinamarca.Items2" xml:space="preserve">
+    <value>Sueco</value>
+  </data>
+  <data name="cbx_Dinamarca.Items3" xml:space="preserve">
+    <value>Dinamarques</value>
+  </data>
+  <data name="cbx_Dinamarca.Items4" xml:space="preserve">
+    <value>Alemão</value>
+  </data>
+  <data name="cbx_Dinamarca.Items5" xml:space="preserve">
+    <value>Noroegues</value>
+  </data>
+  <data name="cbx_Dinamarca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 104</value>
+  </data>
+  <data name="cbx_Dinamarca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Dinamarca.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dinamarca.Name" xml:space="preserve">
+    <value>cbx_Dinamarca</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dinamarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dinamarca.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dinamarca.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="cbx_Noroega.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Noroega.Items1" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="cbx_Noroega.Items2" xml:space="preserve">
+    <value>Sueco</value>
+  </data>
+  <data name="cbx_Noroega.Items3" xml:space="preserve">
+    <value>Dinamarques</value>
+  </data>
+  <data name="cbx_Noroega.Items4" xml:space="preserve">
+    <value>Alemão</value>
+  </data>
+  <data name="cbx_Noroega.Items5" xml:space="preserve">
+    <value>Noruegues</value>
+  </data>
+  <data name="cbx_Noroega.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 104</value>
+  </data>
+  <data name="cbx_Noroega.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Noroega.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbx_Noroega.Name" xml:space="preserve">
+    <value>cbx_Noroega</value>
+  </data>
+  <data name="&gt;&gt;cbx_Noroega.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Noroega.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Noroega.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="Cerveja.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cerveja.Items1" xml:space="preserve">
+    <value>Leite</value>
+  </data>
+  <data name="Cerveja.Items2" xml:space="preserve">
+    <value>Cerveja</value>
+  </data>
+  <data name="Cerveja.Items3" xml:space="preserve">
+    <value>Chá</value>
+  </data>
+  <data name="Cerveja.Items4" xml:space="preserve">
+    <value>Café</value>
+  </data>
+  <data name="Cerveja.Items5" xml:space="preserve">
+    <value>Água</value>
+  </data>
+  <data name="Cerveja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 131</value>
+  </data>
+  <data name="Cerveja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="Cerveja.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Cerveja.Name" xml:space="preserve">
+    <value>Cerveja</value>
+  </data>
+  <data name="&gt;&gt;Cerveja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cerveja.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cerveja.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="cbx_Cafe.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Cafe.Items1" xml:space="preserve">
+    <value>Leite</value>
+  </data>
+  <data name="cbx_Cafe.Items2" xml:space="preserve">
+    <value>Cerveja</value>
+  </data>
+  <data name="cbx_Cafe.Items3" xml:space="preserve">
+    <value>Chá</value>
+  </data>
+  <data name="cbx_Cafe.Items4" xml:space="preserve">
+    <value>Café</value>
+  </data>
+  <data name="cbx_Cafe.Items5" xml:space="preserve">
+    <value>Água</value>
+  </data>
+  <data name="cbx_Cafe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 131</value>
+  </data>
+  <data name="cbx_Cafe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Cafe.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cafe.Name" xml:space="preserve">
+    <value>cbx_Cafe</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cafe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cafe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cafe.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="cbx_Leite.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Leite.Items1" xml:space="preserve">
+    <value>Leite</value>
+  </data>
+  <data name="cbx_Leite.Items2" xml:space="preserve">
+    <value>Cerveja</value>
+  </data>
+  <data name="cbx_Leite.Items3" xml:space="preserve">
+    <value>Chá</value>
+  </data>
+  <data name="cbx_Leite.Items4" xml:space="preserve">
+    <value>Café</value>
+  </data>
+  <data name="cbx_Leite.Items5" xml:space="preserve">
+    <value>Água</value>
+  </data>
+  <data name="cbx_Leite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 131</value>
+  </data>
+  <data name="cbx_Leite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Leite.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cbx_Leite.Name" xml:space="preserve">
+    <value>cbx_Leite</value>
+  </data>
+  <data name="&gt;&gt;cbx_Leite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Leite.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Leite.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="cbx_Cha.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Cha.Items1" xml:space="preserve">
+    <value>Leite</value>
+  </data>
+  <data name="cbx_Cha.Items2" xml:space="preserve">
+    <value>Cerveja</value>
+  </data>
+  <data name="cbx_Cha.Items3" xml:space="preserve">
+    <value>Chá</value>
+  </data>
+  <data name="cbx_Cha.Items4" xml:space="preserve">
+    <value>Café</value>
+  </data>
+  <data name="cbx_Cha.Items5" xml:space="preserve">
+    <value>Água</value>
+  </data>
+  <data name="cbx_Cha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 131</value>
+  </data>
+  <data name="cbx_Cha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Cha.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cha.Name" xml:space="preserve">
+    <value>cbx_Cha</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cha.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cha.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="cbx_Agua.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Agua.Items1" xml:space="preserve">
+    <value>Leite</value>
+  </data>
+  <data name="cbx_Agua.Items2" xml:space="preserve">
+    <value>Cerveja</value>
+  </data>
+  <data name="cbx_Agua.Items3" xml:space="preserve">
+    <value>Chá</value>
+  </data>
+  <data name="cbx_Agua.Items4" xml:space="preserve">
+    <value>Café</value>
+  </data>
+  <data name="cbx_Agua.Items5" xml:space="preserve">
+    <value>Água</value>
+  </data>
+  <data name="cbx_Agua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 131</value>
+  </data>
+  <data name="cbx_Agua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Agua.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cbx_Agua.Name" xml:space="preserve">
+    <value>cbx_Agua</value>
+  </data>
+  <data name="&gt;&gt;cbx_Agua.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Agua.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Agua.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="cbx_BlueMaster.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_BlueMaster.Items1" xml:space="preserve">
+    <value>PallMall</value>
+  </data>
+  <data name="cbx_BlueMaster.Items2" xml:space="preserve">
+    <value>BlueMaster</value>
+  </data>
+  <data name="cbx_BlueMaster.Items3" xml:space="preserve">
+    <value>Prince</value>
+  </data>
+  <data name="cbx_BlueMaster.Items4" xml:space="preserve">
+    <value>Dunhill</value>
+  </data>
+  <data name="cbx_BlueMaster.Items5" xml:space="preserve">
+    <value>Blends</value>
+  </data>
+  <data name="cbx_BlueMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 158</value>
+  </data>
+  <data name="cbx_BlueMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_BlueMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cbx_BlueMaster.Name" xml:space="preserve">
+    <value>cbx_BlueMaster</value>
+  </data>
+  <data name="&gt;&gt;cbx_BlueMaster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_BlueMaster.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_BlueMaster.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="cbx_Prince.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Prince.Items1" xml:space="preserve">
+    <value>PallMall</value>
+  </data>
+  <data name="cbx_Prince.Items2" xml:space="preserve">
+    <value>BlueMaster</value>
+  </data>
+  <data name="cbx_Prince.Items3" xml:space="preserve">
+    <value>Prince</value>
+  </data>
+  <data name="cbx_Prince.Items4" xml:space="preserve">
+    <value>Dunhill</value>
+  </data>
+  <data name="cbx_Prince.Items5" xml:space="preserve">
+    <value>Blends</value>
+  </data>
+  <data name="cbx_Prince.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 158</value>
+  </data>
+  <data name="cbx_Prince.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Prince.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cbx_Prince.Name" xml:space="preserve">
+    <value>cbx_Prince</value>
+  </data>
+  <data name="&gt;&gt;cbx_Prince.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Prince.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Prince.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="cbx_PallMall.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_PallMall.Items1" xml:space="preserve">
+    <value>PallMall</value>
+  </data>
+  <data name="cbx_PallMall.Items2" xml:space="preserve">
+    <value>BlueMaster</value>
+  </data>
+  <data name="cbx_PallMall.Items3" xml:space="preserve">
+    <value>Prince</value>
+  </data>
+  <data name="cbx_PallMall.Items4" xml:space="preserve">
+    <value>Dunhill</value>
+  </data>
+  <data name="cbx_PallMall.Items5" xml:space="preserve">
+    <value>Blends</value>
+  </data>
+  <data name="cbx_PallMall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 158</value>
+  </data>
+  <data name="cbx_PallMall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_PallMall.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cbx_PallMall.Name" xml:space="preserve">
+    <value>cbx_PallMall</value>
+  </data>
+  <data name="&gt;&gt;cbx_PallMall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_PallMall.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_PallMall.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="cbx_Blends.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Blends.Items1" xml:space="preserve">
+    <value>PallMall</value>
+  </data>
+  <data name="cbx_Blends.Items2" xml:space="preserve">
+    <value>BlueMaster</value>
+  </data>
+  <data name="cbx_Blends.Items3" xml:space="preserve">
+    <value>Prince</value>
+  </data>
+  <data name="cbx_Blends.Items4" xml:space="preserve">
+    <value>Dunhill</value>
+  </data>
+  <data name="cbx_Blends.Items5" xml:space="preserve">
+    <value>Blends</value>
+  </data>
+  <data name="cbx_Blends.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 158</value>
+  </data>
+  <data name="cbx_Blends.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Blends.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cbx_Blends.Name" xml:space="preserve">
+    <value>cbx_Blends</value>
+  </data>
+  <data name="&gt;&gt;cbx_Blends.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Blends.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Blends.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="cbx_Dunhill.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Dunhill.Items1" xml:space="preserve">
+    <value>PallMall</value>
+  </data>
+  <data name="cbx_Dunhill.Items2" xml:space="preserve">
+    <value>BlueMaster</value>
+  </data>
+  <data name="cbx_Dunhill.Items3" xml:space="preserve">
+    <value>Prince</value>
+  </data>
+  <data name="cbx_Dunhill.Items4" xml:space="preserve">
+    <value>Dunhill</value>
+  </data>
+  <data name="cbx_Dunhill.Items5" xml:space="preserve">
+    <value>Blends</value>
+  </data>
+  <data name="cbx_Dunhill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 158</value>
+  </data>
+  <data name="cbx_Dunhill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Dunhill.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dunhill.Name" xml:space="preserve">
+    <value>cbx_Dunhill</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dunhill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dunhill.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Dunhill.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="cbx_Cachorro.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Cachorro.Items1" xml:space="preserve">
+    <value>Pássaros</value>
+  </data>
+  <data name="cbx_Cachorro.Items2" xml:space="preserve">
+    <value>Cachorros</value>
+  </data>
+  <data name="cbx_Cachorro.Items3" xml:space="preserve">
+    <value>Peixes</value>
+  </data>
+  <data name="cbx_Cachorro.Items4" xml:space="preserve">
+    <value>Cavalos</value>
+  </data>
+  <data name="cbx_Cachorro.Items5" xml:space="preserve">
+    <value>Gatos</value>
+  </data>
+  <data name="cbx_Cachorro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 185</value>
+  </data>
+  <data name="cbx_Cachorro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Cachorro.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cachorro.Name" xml:space="preserve">
+    <value>cbx_Cachorro</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cachorro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cachorro.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cachorro.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="cbx_Peixe.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Peixe.Items1" xml:space="preserve">
+    <value>Pássaros</value>
+  </data>
+  <data name="cbx_Peixe.Items2" xml:space="preserve">
+    <value>Cachorros</value>
+  </data>
+  <data name="cbx_Peixe.Items3" xml:space="preserve">
+    <value>Peixes</value>
+  </data>
+  <data name="cbx_Peixe.Items4" xml:space="preserve">
+    <value>Cavalos</value>
+  </data>
+  <data name="cbx_Peixe.Items5" xml:space="preserve">
+    <value>Gatos</value>
+  </data>
+  <data name="cbx_Peixe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 185</value>
+  </data>
+  <data name="cbx_Peixe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Peixe.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;cbx_Peixe.Name" xml:space="preserve">
+    <value>cbx_Peixe</value>
+  </data>
+  <data name="&gt;&gt;cbx_Peixe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Peixe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Peixe.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="cbx_Passaro.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Passaro.Items1" xml:space="preserve">
+    <value>Pássaros</value>
+  </data>
+  <data name="cbx_Passaro.Items2" xml:space="preserve">
+    <value>Cachorros</value>
+  </data>
+  <data name="cbx_Passaro.Items3" xml:space="preserve">
+    <value>Peixes</value>
+  </data>
+  <data name="cbx_Passaro.Items4" xml:space="preserve">
+    <value>Cavalos</value>
+  </data>
+  <data name="cbx_Passaro.Items5" xml:space="preserve">
+    <value>Gatos</value>
+  </data>
+  <data name="cbx_Passaro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 185</value>
+  </data>
+  <data name="cbx_Passaro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Passaro.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cbx_Passaro.Name" xml:space="preserve">
+    <value>cbx_Passaro</value>
+  </data>
+  <data name="&gt;&gt;cbx_Passaro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Passaro.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Passaro.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="cbx_Cavalo.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Cavalo.Items1" xml:space="preserve">
+    <value>Pássaros</value>
+  </data>
+  <data name="cbx_Cavalo.Items2" xml:space="preserve">
+    <value>Cachorros</value>
+  </data>
+  <data name="cbx_Cavalo.Items3" xml:space="preserve">
+    <value>Peixes</value>
+  </data>
+  <data name="cbx_Cavalo.Items4" xml:space="preserve">
+    <value>Cavalos</value>
+  </data>
+  <data name="cbx_Cavalo.Items5" xml:space="preserve">
+    <value>Gatos</value>
+  </data>
+  <data name="cbx_Cavalo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 185</value>
+  </data>
+  <data name="cbx_Cavalo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Cavalo.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cavalo.Name" xml:space="preserve">
+    <value>cbx_Cavalo</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cavalo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cavalo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Cavalo.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="cbx_Gatos.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_Gatos.Items1" xml:space="preserve">
+    <value>Pássaros</value>
+  </data>
+  <data name="cbx_Gatos.Items2" xml:space="preserve">
+    <value>Cachorros</value>
+  </data>
+  <data name="cbx_Gatos.Items3" xml:space="preserve">
+    <value>Peixes</value>
+  </data>
+  <data name="cbx_Gatos.Items4" xml:space="preserve">
+    <value>Cavalos</value>
+  </data>
+  <data name="cbx_Gatos.Items5" xml:space="preserve">
+    <value>Gatos</value>
+  </data>
+  <data name="cbx_Gatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 185</value>
+  </data>
+  <data name="cbx_Gatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="cbx_Gatos.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cbx_Gatos.Name" xml:space="preserve">
+    <value>cbx_Gatos</value>
+  </data>
+  <data name="&gt;&gt;cbx_Gatos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_Gatos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_Gatos.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="btn_Verificar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        YlWx6zeRRew8o99ToaGMNSWSxzF+Fcm5JOgSSSSSSSSSSSTRJJJJImJiYhKcFEMXY/P12xTY8O6+dTHV
+        J0GkcosNYLpN1ZCZZJJJJJJJJJJokkkkknQqJCQgnG7DxKG8rRsPcyj6BGayfd5fyLUxicMapJye6DuK
+        VP8A8CUp3JrJNJ4EECCKcadgRzEh7Ie0N848dDU8s0u25GNJGRDWzJJ0OjGGGpZptV2PYXapBBBBFYII
+        IIoVYduklR4ENWLj5EIbPLfR4HlGPL+xOp0YwnU8jUOw7WfchYB0tnwRlBBVohC7RFgbckN3PpaQpTDP
+        IQbOT4DomJ1JORyHFyrMY3fufJTA/wBjfo+GNsm5fgdn7Rftagv/ACds7B2iBFJe/UVTQWTv3CJlsQ08
+        rgQQJwMNQkIkdGWwnLBrqJkmy/IlChWXWVo1pIr/AOMiJtpcNPKfBggQmQ00iNpIRyfa/BHv8F4XXEcb
+        asiz53MvzBfwPgQQQjvCwvuYIP8AvJ+MOXyOXB7qcx9lT+OJ8F5f7xf36+1i8olE3P8Al92UMvtz8AnO
+        L1SHRL2Elke0b+XsQEv+6wpJSMJL6I96R3j78YCRzPvOR/Mx285F/wAbH//aAAwDAQACAAMAAAAQ8888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888886888888888888888888888888888888888888885UOe888888888888888888888
+        8888888888888886L46888888888888888888888888888888888888rO4P888888888888888888888
+        888888888888888TuMG888888888888888888888888888888888888pP8u888888888888888888888
+        888888888888887bfvTGspn68888888888888888888888888888886DDfjyfkUl7888888888888888
+        8888888888888+JD3r7Gwos0l388888888888888888888888888807PTyD2Es9iX/8APPPPPPPPPPPP
+        PPPPPPPPPPPPPLCa06qw1jfcLJNwPvPPPPPPPPPPPPPPPPPPPPPPOJbZ31qwvvVQEcIttPPPPPPPPPPP
+        PPPPPPPPOPadI/f2/gwwllFQEejed/PPPPPPPPPPPPPPPPPLqYko9f8A+9atMJ6jUBVBlVXzzzzzzzzz
+        zzzzzzzmWhQByE//AP8A/wBIutLukgB1v6bzzzzzzzzzzzzzzzu7JCYhFN//APz7v/bK+FlMoSDj+888
+        8888888888o5rTwKjtfn/nZ8Fz7vCpZpoeNs88888888888888a/LcQR75tBB9F5N4P7HyN1JbM28888
+        8888888885WzqbPyWvRx99lFZlpRHvvMc6s38888888888888uW/nbBb+4/DFNNkhR5ZVbz3aqxG8888
+        888888888tLjaDTrh8xzMpEcAMEE8qZtJxG+88888888888888s7M4nvPqRjSEkcUKOiK8va1c888888
+        8888888888o+GB3sjJ1DjH/Tc6u3nPO8888888888888888888shl1hPM1PzO6ZfPfe8888888888888
+        88888888888tjHt52Pbcss888888888888888888888888888888svfOEM8888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        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
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Verificar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btn_Verificar.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="btn_Verificar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 96</value>
+  </data>
+  <data name="btn_Verificar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 75</value>
+  </data>
+  <data name="btn_Verificar.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btn_Verificar.Name" xml:space="preserve">
+    <value>btn_Verificar</value>
+  </data>
+  <data name="&gt;&gt;btn_Verificar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Verificar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Verificar.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 74</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 131</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Bebida</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 158</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Cigarro</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 188</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Animal</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 28</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Casa 1</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 28</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Casa 2</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 28</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Casa 3</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 28</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Casa 4</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>542, 28</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Casa 5</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 104</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Nacionalidade</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btn_Hide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 28</value>
+  </data>
+  <data name="btn_Hide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 42</value>
+  </data>
+  <data name="btn_Hide.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="btn_Hide.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="&gt;&gt;btn_Hide.Name" xml:space="preserve">
+    <value>btn_Hide</value>
+  </data>
+  <data name="&gt;&gt;btn_Hide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Hide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Hide.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 248</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 17</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>O Inglês vive na casa Vermelha.</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 271</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>O Sueco tem Cachorros como animais de estimação.</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 294</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 17</value>
+  </data>
+  <data name="checkBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>O Dinamarquês bebe Chá.</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Name" xml:space="preserve">
+    <value>checkBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 317</value>
+  </data>
+  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 17</value>
+  </data>
+  <data name="checkBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="checkBox4.Text" xml:space="preserve">
+    <value>A casa Verde fica do lado esquerdo da casa Branca.</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Name" xml:space="preserve">
+    <value>checkBox4</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="checkBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 340</value>
+  </data>
+  <data name="checkBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 17</value>
+  </data>
+  <data name="checkBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="checkBox5.Text" xml:space="preserve">
+    <value>O homem que vive na casa Verde bebe Café.</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Name" xml:space="preserve">
+    <value>checkBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkBox6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 369</value>
+  </data>
+  <data name="checkBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 17</value>
+  </data>
+  <data name="checkBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="checkBox6.Text" xml:space="preserve">
+    <value>O homem que fuma Pall Mall cria Pássaros.</value>
+  </data>
+  <data name="&gt;&gt;checkBox6.Name" xml:space="preserve">
+    <value>checkBox6</value>
+  </data>
+  <data name="&gt;&gt;checkBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkBox7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 392</value>
+  </data>
+  <data name="checkBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 17</value>
+  </data>
+  <data name="checkBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="checkBox7.Text" xml:space="preserve">
+    <value>O homem que vive na casa Amarela fuma Dunhill.</value>
+  </data>
+  <data name="&gt;&gt;checkBox7.Name" xml:space="preserve">
+    <value>checkBox7</value>
+  </data>
+  <data name="&gt;&gt;checkBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBox8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 248</value>
+  </data>
+  <data name="checkBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 17</value>
+  </data>
+  <data name="checkBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="checkBox8.Text" xml:space="preserve">
+    <value>O homem que vive na casa do meio bebe Leite.</value>
+  </data>
+  <data name="&gt;&gt;checkBox8.Name" xml:space="preserve">
+    <value>checkBox8</value>
+  </data>
+  <data name="&gt;&gt;checkBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBox9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 271</value>
+  </data>
+  <data name="checkBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 17</value>
+  </data>
+  <data name="checkBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="checkBox9.Text" xml:space="preserve">
+    <value>O Norueguês vive na primeira casa.</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Name" xml:space="preserve">
+    <value>checkBox9</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBox10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 294</value>
+  </data>
+  <data name="checkBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 17</value>
+  </data>
+  <data name="checkBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="checkBox10.Text" xml:space="preserve">
+    <value>O homem que fuma Blends vive ao lado do que tem Gatos.</value>
+  </data>
+  <data name="&gt;&gt;checkBox10.Name" xml:space="preserve">
+    <value>checkBox10</value>
+  </data>
+  <data name="&gt;&gt;checkBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBox11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 317</value>
+  </data>
+  <data name="checkBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 17</value>
+  </data>
+  <data name="checkBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="checkBox11.Text" xml:space="preserve">
+    <value>O homem que cria Cavalos vive ao lado do que fuma Dunhill.</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.Name" xml:space="preserve">
+    <value>checkBox11</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 346</value>
+  </data>
+  <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 17</value>
+  </data>
+  <data name="checkBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="checkBox12.Text" xml:space="preserve">
+    <value>O homem que fuma Blue Master bebe Cerveja.</value>
+  </data>
+  <data name="&gt;&gt;checkBox12.Name" xml:space="preserve">
+    <value>checkBox12</value>
+  </data>
+  <data name="&gt;&gt;checkBox12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 369</value>
+  </data>
+  <data name="checkBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="checkBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="checkBox13.Text" xml:space="preserve">
+    <value>O Alemão fuma Prince.</value>
+  </data>
+  <data name="&gt;&gt;checkBox13.Name" xml:space="preserve">
+    <value>checkBox13</value>
+  </data>
+  <data name="&gt;&gt;checkBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 392</value>
+  </data>
+  <data name="checkBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 17</value>
+  </data>
+  <data name="checkBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="checkBox14.Text" xml:space="preserve">
+    <value>O Norueguês vive ao lado da casa Azul.</value>
+  </data>
+  <data name="&gt;&gt;checkBox14.Name" xml:space="preserve">
+    <value>checkBox14</value>
+  </data>
+  <data name="&gt;&gt;checkBox14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 248</value>
+  </data>
+  <data name="checkBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 17</value>
+  </data>
+  <data name="checkBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="checkBox15.Text" xml:space="preserve">
+    <value>O homem que fuma Blends é vizinho do que bebe Água.</value>
+  </data>
+  <data name="&gt;&gt;checkBox15.Name" xml:space="preserve">
+    <value>checkBox15</value>
+  </data>
+  <data name="&gt;&gt;checkBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYa
+        HSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgo
+        KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAFdAmwDASIAAhEBAxEB/8QA
+        GwABAAIDAQEAAAAAAAAAAAAAAAMFAQQGAgf/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAA
+        AAH5SAAAAAAAAAAAAAAAAAyDIxnI8sjyyMM4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkxlkxnPoxn36
+        IkuSHEwgxN5InvyYxkYZwAAAAAAAAAAAAAAAAAAAAAAAAAAADJjIMsjOZDEvqwNTxueDXbnSHIZ7DBxf
+        jqa4pI7XRNbE3gjevJhnAAAAAAAAAAAAAAAAAAAAAAAAAAAyDOMmfWJTOzjaPG37nNHNztlZ1WrYlRJN
+        ZHOees0zhtDr6c5qPf0SLx78nnHrBgAAAAAAAAAAAAAAAAAAAAAAAAAGQZy9nqfxOS2Gjtm1srEt93zv
+        lZJbSlHF0EJy+zZVhJWY3Tmeb73nTl/PvyYx6wecZwAAAAAAAAAAAAAAAAAAAAAAAAAZzj0epPEpNsa9
+        uQ9PXRlv2VD154mmHjzOIfG3AaehY65T69vXEvKdlUnymO8pjxjI8YzgAAAAAAAAAAAAAAAAAAAAAAAA
+        GR78+z3J42C3m0bg1JNjQOs6v532Z1ceMEkPvQNiTkpi+19nWPGnYaRsaFvzpwFL0/PGmmgIwAAAAAAA
+        AAAAAAAAAAAAAAAAAM4yZlilJJdcWlrUSF3Zc/enTeeZ8He33zfvybUjpDen4zB3lZtaJYa80Rs0N/pH
+        B0XZ1hwkd7REeM4AAAAAAAAAAAAAAAAAAAAAAAAAPUkcg9Y9lnA1y06HkO2NGxvfZQd7847o2Ki1lPn8
+        3X+DOxobRjxFAb9THWnvVnHMc/1nLml5kjAAAAAAAAAAAAAAAAAAAAAAAAAM+48k00Uh7zF7J/tHxf7K
+        T0V5xx009r4KPo+etTfj2PBrVV1SFTWTVxa2dhKfP+it640OK+lcyfOodnWAAAAAAAAAAAAAAAAAAAAA
+        AAAAAJZNf2bc+hMbX0b5x9AO34S9tzmbi08mnsyRGxsUliequzrDl4tuQ6PQzyh3HmlsTW5a04oqdX15
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAPUsA3PoPzjujY3Op+dHVe9HJY+tXjT6Vu830JtUlzRmny3UfLC3pt
+        PB1VfSiyrmAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPT8vKfdua2tIv665oCXR93pcV1pom9QbPyQ80ucA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF72Hzjojs5uX7A2b3b1yTmtD5abdPjyAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAADJLLL05rdvy9afQOQ5DSJ4vIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbEd0Yt
+        aXWJdGLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzjfJ546kzGAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAEs2rgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//EACwQAAIBBAEDAwUAAQUAAAAAAAECAwAEERIFEyEiEFBg
+        FCMxMkEzBhUkgJD/2gAIAQEAAQUC/wCh2PTFYrFYrFY+C4pVyTERWtamsVqa0asVisfAwKAr/HXjRqNN
+        zaWKuWnSFvqJ5Q6JJUkCimtzrr8BApVpF8infU5ZCKiiOD42kNvhZyS3mxuIbipAyUw3oij78KQUo7gV
+        g4jjchoDrHEalxtI3WdemqrK7iYSLUoLGa2qRaPvooUgpMYA7ImTYotS+VRxMpMfbpVLFtS7RUsgeunG
+        9TQkGeFnEgo+9igKFDvUSliytFUEJYwoyhEwFVc4oiumDUkNTR1prSR7h97duTix74KFLUUJkMfStI7a
+        PqSQxdlSu9a9sVrRCimXs600dKurah45rbs4wfehS5qK3LV/hpSZJrFPKMepoejZr+/lpcVIO8Xer+I4
+        vgrTEY96FQaxoztIybSPZ93W+gWrW7glrNf3+NIihZ43JpvIUwzUi1Eg1uCCvIr5r3ojB92HpGMs2TMu
+        EhskOtqrGODiHq2t1FLWO7gmprNJafjX6w49wcYU96I8D+dfG8NX3cyBcsM+7j0Bq37y3EmVt5NbfgYt
+        quLhIzFcdQQ3SkinNO+A9/EoiuIpqcYWE5JHYrkAHWe2YicatLAQGBU+82WTOzZLDWz46Xo2NtD14rO6
+        zNyEn2YHzBNJost02Lp5LUx3EVwY33iQaylqQ5Ve1Tya1eKCEzi6iRq/HvAq0wsuaeTaGB1SASErx9qk
+        BuNGuFOqZ85JGE3JRNe3VnAsMUZWnXylGViOakfRZJt6JphVyOoD5A+7f3+p4A/tD5SRQN1Ft8HDFeIj
+        6t3LJik708AahHmigWkFTOFSR+0T4Es2aut440nEh0G13H0p5RrI3uo9AKz3j/a073EMf2lIzy8x6djb
+        COCeNtbSVaGVrAopRQYuOwL5qacodGlq7tyIZlLS28XjexDXkodXb3UUKz6CrfxuBLiKFC9cjdKeStmV
+        kuCuPpfC0m2jx6Mau6jOQRma2VelcsFH0qVw4bXkVGvLLvav7sD6Ku1aKKg73EB2nZxHFe8d1qsEvUiE
+        ZZulrUEfSSKTUsaJq5yIojiILl2jWCEMJnywTjR9vln+xdOfo5T7uD6LVqcXKnW+jk69QfrG2VjRErtu
+        3dyPJW2Qfm/bEca7RWqdS95ByII5RlJZSEuUV+Sbc8jdCT3oNSnDQHqSTSS2jx8omicuMRcijj6zZYb0
+        aIyyGPsR+eR/SBcW13cvbyX3KS3JSdkccmaW6P1FxKZD72pq0PUtZI4ruzNmEv4rRRQsY6aBDHMH+osE
+        eJYHykfccn3Xk5xbW9zN1X+A8Nc9Kfi/GpsD/UUq+TsKvSIrC0iAcr9n9bZPGOWVOtyN411L8CQ4bi7r
+        c8sdOYnP2Wzm72mubOHpLEuqXC5flbtbW3vL17gfBLK5aIcni9sLK4E9g56Y4+0OiqAG7Ce7S3rkLx7y
+        Y/BUrjLvoSiKe2msbeW4b+YxXL8ukAuJ3mcn4MnpY8iYah5WNq/3SNDynOPNW2aPweFK4iyS5vOWg47M
+        f/FhuJuq/wAIjXJA0W5k0geQLTuzn4Qo2MaaiZ6km+FwR4qV+mGbY/CoI+8kwSmYsfhSDu8vb/zs/8QA
+        FBEBAAAAAAAAAAAAAAAAAAAAkP/aAAgBAwEBPwFWv//EABQRAQAAAAAAAAAAAAAAAAAAAJD/2gAIAQIB
+        AT8BVr//xAA3EAABAgQEAwYEBgEFAAAAAAABAAIDESExEiJBURBhcQQTMkJQYCAjgbEUM1JikaGAkMHR
+        8PH/2gAIAQEABj8C/wAW6KtPht7IA1NyFQK0lhE5q85XKIgwhIeYrwSbzUzhHRXWJpxD2IFa6lwGG5Qg
+        wqPcFjjfwsLG0+ylChh0uSzwpjkFiDS06hc/YkkJCfJTwEI8gmkIgUAKxOUmSZ0VYrl8zMNV8k1HlKrf
+        2HRGdVl+AyOiMlmcsslvzCJlm1l7Bypodc6Kf2Wg424VVLKyoSFmM+a+ZVmj9ljEvp6/Zd46rtAu9jmb
+        zpsrHpZUaFYKwVgrLZb9PgIeJhPhTmLjl67RaqpQ/b/2amwU/UVX4Lq6tNZTI7Ln8HeM8TbJwlhPrgiR
+        KnytV/4WGc0Z2mgXxJ/tYh3T59fgzOAUmvaV/wALmqr78KXUtT91iArYqXrQQlYJxN5J7tJXUXDfwhYn
+        nNeSabEfAMdlignBzU++eHbzVb/7qnGa5rH/ACpj1uyLQnzWI7zWWqtJyDDfjXhlKKPXhz4XWF/hOqJl
+        T1tid1U90TyT+1dojd3CZtUqUMOIdaYumRRlitMimuOy3JUmtm86IHtRhTdZk0HQ8TH6IT6FGfAHXhmF
+        Fjbmh7LLUbFEsyv1YfWhLRFQ2ojxOsAnwooMn0K7xmMxdCRQKF2Zr8dcTzzQQOim37IPa4McGyqmQ3Zs
+        2LEFKamp/bhPhNs+ixQ9U5zbii5j1nmUU0KHEa29gsRDE8vo0J0V3hQV1PXdZ2NdzC8Km+jtlPjXwrvY
+        QyogjONFiFjdE+U0KPrFeFeaZ1XNFsrIQYXnMpprQEVJ28ly4V4S04AN6JrQ3KDmKDWG9Kp8YVwGTpIh
+        1dZ7pv7hJClx62zqhLhDDfy4Rlwkp63WbSh+A9FNAndE7lMBOqfs8JzX3ZlTVBPmB9Zofoqmqb1WDbg6
+        JCMnG4WBzLagr5r9LNXyXP5hxmsJrO6wOPTjmuiUxu5TZaFPbE/8WF+lioj9yuYcoXUlD1pnVT3CaZ8k
+        5ckSUVlMlmOYWU+BQkmj9ImpTqu7ETPO26DS2ybAaapwiOaxmKY5oNh+EethQ5nxBS00Una0BVaSFSnY
+        nWU8Mm3mhMyHNTF+J2WLdCJCOaf9KmQcig4GoVRm5LvD68yIzxw6puITEqLuj5ao0b9V1K22XdwEC/E4
+        C6c82nRTQY27jJBo6I7ewsLvC6iiQT5DToiHTk5qOH+1T6FNpndZSaJuNysPAKJFiGUOEL80T5dB7E7P
+        Fn4h3b+ui7NE3EkX6JrdwmsbUNC3cbqv9qGwaumiTfRBloY057+xSN6jqE2PDOeHVZr2Re76LvYlHP0U
+        uETtEd3JgRe+2g29jyf+W6hTvwzC+E40kmxO1NwMb5TcqQ4GHCzRPssUV0z7JDX2XjWaIJLu+z5Gb6+y
+        pxPyYYm5O/CRDj2Am1Md2rszHNiDKZ1U2tDBsPZbOywzIDNFP6nbfRc1mJPszL9T7Lqr+zJlSbUqZ9l1
+        spNoP9O3/8QAKxABAAICAQMDBAIDAAMAAAAAAQARITFBUWFxUIGhEGCRscHRIOHwcJDx/9oACAEBAAE/
+        If8Ax/UCVKlSokqV9iVKgQiv8WYYSV9hBCFACrwTB1XRZcxZO1MfM5qYkWuvE8YwwkqV68QPoX8QKi8m
+        x4ItAtvlcynVFUqUarg3wHvOUVjte/aN1Ts6GPIv1tK+6X0mMXLXEYSJ66ED6VxEMHMYs9hm+vPaKuXv
+        Dae7xFWMssv8JVdaw8F4FYjHWcm2YBsqLvJ+IIiGxnanAOZVBzGPrYQTJKKYmEqKnBP1Hgq7gNyXfM3F
+        cCdIQxSGImhIPtKHKdKyxUfRwsj93v8Au01TrsGoKZnzB4jZRX8phH1sIIRiui4cVA9biodh0lQpR2cw
+        VmeyGtA9pSDJdy2uehjUQOsMVYGmJgGngmEZzeo8V7m5dx7IHco4MvepWLVJv1wPpCi47Siga+Idk6oK
+        IV6CKrA+Yd1zKZga2goYr2iLCzrA4X5RQwvEsv8ASTEoPylci7Ab/sTAPPfBOpHHv9X1YgQ5hhUcXApg
+        Qttr8rHQmb0dH/yClsOjGOaPzEW29phaZ0/gnhnGL6y24A6waNWmk5JRjF8PDBfHOiJ6LiIX9VPMLUie
+        fqx9WD6AmAxDuxKdgdEyuJpeh6vEarnocvjpLDa5XZJgqC+X8wNQnSadjwjWSdVzFy1X7QZOAXJ0YoX5
+        hLtU89GHDhcrqdIEgLfmL9D6sQJbcN1flO72iha1xgEPlNXiMYLV04a/iDrr8BDbFuNpVNxZULP00V2M
+        8CZiq6c90I110PWXR1dYNGsaihqr7QjFWxHRcGO0Z1AYJQ39mJQ8Rr1UggYlaWhY8IaA8SjhUAvPWMqb
+        Ljm+/ZmAqhBhAysTIEwQT2wQOHEzpYKqa3BWkZtnhFsq6ZhcWViFr3MaQwEphWuTlU0hnfd3nCI/EqWN
+        p6sfQMrSo6v+aggekraophl5kIaBbW4NoqNTETeqhvMpMQr+Eoar4LmMG+nM8wlIdiiYujU46EV29IyV
+        HNRagdINwiWTWP3EY4m/VSEuXKEcsdQ4YZOGI9Yho2L5i8fEHwRix/R34VHpXyZ3+Iy3KGZ2rWCFtMYp
+        ib26s2HsUSsh7PP9xmZvJzHeK1MvtOlCJgbKdc2hN3yPWK1qnF8QRCLWh7MRSOEjv1Qh9DceyoVYa/aZ
+        zurlOej945leVFOsckOUzNRBIovyCogHQYlxZeRmMwGuOHiWBYHSUNcI7aIYLW+HcxcJdLH7RhkqPtyp
+        Zv8Aca0QcwNWHUcM16zB5jLHvd5t6oQ1DSXpHS3lPxMOlcSvq5gYpk12h2o9b17S9gdqukrtshfWIMKD
+        9RjsweHUx7EFFcBC2w7DLClCL/XpmKFdTlt5I6S9pv0ax1lYbY8JHdtZj0P/ACDHvHNMFPqq+hGdP3G1
+        nfERq2fow03kEp4NdzRGwDKeJ71KUKbYEMVxFBcQODa0w6FQk5HeY5L7wXyYhd3NvTgRWkgLtMsbYQdk
+        F4aaMfEufGABw4YkOMCOtpg8wY9VVMyi1ommOtEas2GHYZCsdoZbgdzeIn55YNRw5mBpmZs4sxhOaFOJ
+        dYZiuXyahewxCT2BlaJ+6BwFwXrKK0FJrlqpzvW3Uv8A18wN9GcL1hUuhjzBi+76tiqDB0vJpgWx7IPZ
+        op51t+ZiW6qDZX3RZcLFTABGYxtbk8sw1acJj5h3Fnk8z8jPUmPER94UrEmamgsrFx1kSqK1e8Y00afj
+        EtrRfC1DK1TMaUg/uWpcjb6WzAe1vq/U+hKzBW6BMMo034hhijlXMRmABwujj+JZo8l6QylbnvmO5Tgz
+        OfU6ZitK0tcQfwHtN+JmeMSiCuWDb4SFmIO5h+tNDbzFVHIXRCkiFSE1jIcgOkXW10RVbfWBSXFS5dGd
+        e2e9EVG0Z8Lh2ymQ4YkFBgOGLVVrGG0LlbKdZZEDlEKpaN991KMBWc4jpW4itXQjgvdKQZunXomNO1C6
+        Cll5iC87dqI25WessC4Pn1zi5iGLW3g3KgEFqiLNl5dJQFscOIS6s0VwREmBcUAu694p13pRf8xsUSA/
+        Ri6EoTIHGXEdRjh/jbVeu1qG1epjy8ne8kw+CgGkOqOoMW+RgMKw2h1GUnWU18mWDUJ2g9pKhaazy/75
+        jpsD9hjAjUvwZPEz/L8w2miw+/8AuYY3TniG2s0QoVFQEzQbi6RTEq5WO+IHYzFIDQdWNZcvu6neLb9i
+        EdwjsJZMs2jzXM2UgKEC92AQdM5WGiVB1yxkAwK1dviL3XtxHf2K9xBzYB1mIF3BmkeFkj5e8aRRKtVx
+        G+Hxhx5SzTi7eIj9jG7nMztQ77QOqW6uo0FVuGN/Jzf1KJVb7xW/Y6VcqKZG67XDsffcPMQvcagpYcA8
+        H2S91YmWu2otbIByfppMSZg00hRbo+ya0nbOkzANcy+xKuV5Yt/ZIW4hi92D1XSNY/ZbICGNf6IjW37L
+        BtoiPlHf7NvH/qg//9oADAMBAAIAAwAAABDzzzzzzzzzzzzzzzzzRSDjjTzzzzzzzzzzzzzzzzzzzzzz
+        zzzzzzzzzijwjhgDRzTzzzzzzzzzzzzzzzzzzzzzzzzzzziyRwjhDDRzjTTzzzzzzzzzzzzzzzzzzzzz
+        zzzzzSxyCSwCiSxRjDzzzzzzzzzzzzzzzzzzzzzzzzzxRAzCiCQyAixABTzzzzzzzzzzzzzzzzzzzzzz
+        zzxhwgQwRSCQyzjzTzzzzzzzzzzzzzzzzzzzzzzzziQhDiyRCxSxBTTzzzzzzzzzzzzzzzzzzzzzzzzy
+        ihxjwzDDBhAzBRzzzzzzzzzzzzzzzzzzzzzzzzzwRASiiRQwQjwTjzzzzzzzzzzzzzzzzzzzzzzzzzxx
+        QDByyjQTzhTTzzzzzzzzzzzzzzzzzzzzzzzzzzwDhiiShSDQDCzTzzzzzzzzzzzzzzzzzzzzzzzzzzxx
+        BiAhAjRRwzzzzzzzzzzzzzzzzzzzzzzzzzzzzzyjQACwDzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzwh
+        hgCzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzjSwSzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzyCzzz
+        zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzjRzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzyzzzzzzz
+        zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+        zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+        zzzzzzzzzzzzz//EABQRAQAAAAAAAAAAAAAAAAAAAJD/2gAIAQMBAT8QVr//xAAUEQEAAAAAAAAAAAAA
+        AAAAAACQ/9oACAECAQE/EFa//8QAKhABAAICAgEDAwUBAQEBAAAAAQARITFBUWFxgZFQobEQYMHR8PHh
+        IJD/2gAIAQEAAT8Q+iEqUSpX7Ir9AlSpUqVElR/YZ+hFkP0H9HBGGkSv0r6/UqEEeP8AT9MJLaih1UfG
+        ctTJr9Biv0r63UqBA/Su1EjtQFrC9vpBZ6ktWT0uIVpfncuArL8RoLw4Mbml33aopyKObIUoiuoxX1k/
+        UguO8RPWXDZXUFTAwlDu48srFStSr/ekFlPAtUgYZTRR7w6VVQY/8uMhNWAeMODx6wAzzKIvVag3XgoC
+        8HAywX1t39nMxCO23qOJQt2pxMev0ElR+sh+hdzFXcskLRI5KKDCtEItoCj+4MclccvEEnioanhFDvKr
+        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
+        0N+X9l3DDZcy9QpG/wBmrYW11/8AlB//2Q==
+</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 470</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>JogoEisten</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
